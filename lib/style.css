@@ -1,16 +1,11 @@
-.body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .mobile-container {
-    max-width: 480px;
+.mobile-container {
+    max-width: 100%;
     margin: auto;
-    background-color: #555;
-    height: 500px;
+    background-color:#D6EAF8;
+    height: 1400px;
     color: white;
     border-radius: 10px;
   }
-  
   .topnav {
     overflow: hidden;
     background-color: #333;
