@@ -10,7 +10,8 @@ Labeeb
 Mo
 Jaedon
 App Name
-TBD
+Proteus
+
 App Logo
 
 App Description (40-50) words
