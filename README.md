@@ -5,11 +5,11 @@ Team Name:
 Foobar
 
 Team Member Names:
-Calvin
-Cameron
-Labeeb
-Mo
-Jaedon
+Calvin,
+Cameron,
+Labeeb,
+Mo,
+Jaedon,
 
 App Name:
 Proteus
