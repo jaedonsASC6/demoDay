@@ -12,9 +12,9 @@ body{
   }
   .topnav {
     overflow: hidden;
-    background-color: rgb(151, 146, 146);
+    background-color: rgb(62, 106, 121);
     position: relative;
-    text-align: left;
+    text-align: center;
   }
   
   .topnav #myLinks {
@@ -22,7 +22,7 @@ body{
   }
   
   .topnav a {
-    color: blue;
+    -webkit-text-fill-color: rgb(58, 21, 119);
     padding: 17px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -43,7 +43,7 @@ body{
   }
   
   .active {
-    background-color: rgb(152, 248, 255);
+    background-color: rgb(220, 253, 255);
     color: white;
   }
 #MotovationalSpeech{
@@ -73,5 +73,8 @@ body{
   margin-bottom: 5px;
 }
 #chat_members{
-  margin-top: 5px;
+  margin-top: 7px;
+}
+.quoteOfTheDay{
+  -webkit-text-fill-color:rgb(212,175,55);
 }
