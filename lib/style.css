@@ -1,8 +1,9 @@
 body{
-  margin: 0;
+  margin: 0px;
+  max-width: 100%;
+  background-color: rgb(0, 0, 0);
 }
 .mobile-container {
-    max-width: 100%;
     background-color: rgb(41, 41, 41);
     height: 1400px;
     color: rgb(207, 205, 205);
@@ -44,3 +45,15 @@ body{
     background-color: rgb(152, 248, 255);
     color: white;
   }
+#MotovationalSpeech{
+  text-align: center;
+  -webkit-text-fill-color: rgba(242, 242, 243, 0.959);
+}
+#MotovationalSpeech p{
+  margin:5px;
+  font-size: 100%
+}
+#MotovationalSpeech h2{
+  margin-top: 7px;
+  margin-bottom:3px; 
+}
