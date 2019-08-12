@@ -74,6 +74,7 @@ body{
 }
 #chat_members{
   margin-top: 7px;
+  text-align: center;
 }
 .quoteOfTheDay{
   -webkit-text-fill-color:rgb(212,175,55);
