@@ -1,14 +1,17 @@
+body{
+  margin: 0;
+}
 .mobile-container {
     max-width: 100%;
-    margin: auto;
-    background-color: whitesmoke;
+    background-color: rgb(41, 41, 41);
     height: 1400px;
-    color:black;
+    color: rgb(207, 205, 205);
     border-radius: 10px;
+    text-align: center;
   }
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(151, 146, 146);
     position: relative;
   }
   
@@ -17,7 +20,7 @@
   }
   
   .topnav a {
-    color: white;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -33,7 +36,7 @@
   }
   
   .topnav a:hover {
-    background-color: #126852;
+    background-color: rgb(24,125,22);
     color: black;
   }
   
