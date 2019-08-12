@@ -67,6 +67,7 @@ body{
 }
 #chat_box{
   color: white;
+  overflow: auto;
 }
 #message_form{
   margin-bottom: 5px;
