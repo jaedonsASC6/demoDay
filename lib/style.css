@@ -49,8 +49,9 @@ body{
 #MotovationalSpeech{
   text-align: center;
   -webkit-text-fill-color: rgb(24, 164, 219);
-  border: 3px;
-  border-top-color: rgb(249, 252, 255);
+  border: 5px;
+  border: solid;
+  border-top-color: rgb(14, 209, 47);
 }
 #MotovationalSpeech p{
   margin:5px;
@@ -66,4 +67,10 @@ body{
 }
 #chat_box{
   color: white;
+}
+#message_form{
+  margin-bottom: 5px;
+}
+#chat_members{
+  margin-top: 5px;
 }
