@@ -64,4 +64,5 @@ body{
 }
 #chat_box{
   color: white;
+  overflow: auto;
 }
