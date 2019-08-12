@@ -49,6 +49,8 @@ body{
 #MotovationalSpeech{
   text-align: center;
   -webkit-text-fill-color: rgb(24, 164, 219);
+  border: 3px;
+  border-top-color: rgb(249, 252, 255);
 }
 #MotovationalSpeech p{
   margin:5px;
