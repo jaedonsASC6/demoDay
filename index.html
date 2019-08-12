@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="./lib/main.js"></script>
+
+    <!-- api links -->
+    <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+
+    <!-- api links -->
+    
+    <script src="./lib/config.js"></script>
+    <script src="./lib/main.js" defer></script>
     <link rel="stylesheet" href="./lib/style.css">
 </head>
 <body>
@@ -20,7 +27,7 @@
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon"  id="dropdown_button">
         <i class="fa fa-bars"></i>
       </a>
     </div>
@@ -33,17 +40,5 @@
     
     <!-- End smartphone / tablet look -->
     </div>
-    
-    <script>
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-    </script>
-    
 </body>
 </html>
