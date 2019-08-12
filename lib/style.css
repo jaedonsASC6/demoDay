@@ -5,7 +5,7 @@ body{
 }
 .mobile-container {
     background-color: rgba(29, 23, 23, 0.938);
-    height: 1400px;
+    height: 100%;
     color: rgb(207, 205, 205);
     border-radius: 10px;
     text-align: center;
