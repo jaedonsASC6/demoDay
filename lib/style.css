@@ -1,9 +1,9 @@
 .mobile-container {
     max-width: 100%;
     margin: auto;
-    background-color:#D6EAF8;
+    background-color: whitesmoke;
     height: 1400px;
-    color: white;
+    color:black;
     border-radius: 10px;
   }
   .topnav {
@@ -33,11 +33,11 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #126852;
     color: black;
   }
   
   .active {
-    background-color: #4CAF50;
+    background-color: rgb(152, 248, 255);
     color: white;
   }
