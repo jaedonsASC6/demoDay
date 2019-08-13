@@ -43,16 +43,15 @@ body{
   }
   
   .active {
-    background-color: rgb(220, 253, 255);
+    background-color: rgb(158, 244, 248);
     color: white;
   }
 #MotovationalSpeech{
   text-align: center;
   -webkit-text-fill-color: rgb(24, 164, 219);
-  border: 5px;
   border: solid;
   border-top-color: rgb(14, 209, 47);
-  margin-top: 1%;
+  margin-top:1.2%;
 }
 #MotovationalSpeech p{
   margin:5px;
@@ -71,6 +70,7 @@ body{
 }
 #chat_messages {
   overflow-y: scroll;
+  overflow-x: hidden;
   height: 50vh;
 }
 #message_form{
@@ -92,11 +92,6 @@ body{
 #Mental_Health_Articles_title{
   -webkit-text-fill-color: rgba(26, 168, 13, 0.952);
 }
-h4{
-  -webkit-text-fill-color: rgb(138, 14, 187);
-  margin-bottom: 1%;
-  margin-top: 1%;
-}
 #logo{
   width: 10%;
   height: auto;
@@ -107,15 +102,20 @@ h4{
   padding-right: 5%;
   padding-bottom: .5%;
   padding-top:.5%;
-  margin-left: 5%;
-  margin-right: 5%;
   text-align:left;
+  margin-top:1%;
+}
+#healthArticles a{
+  -webkit-text-fill-color: rgb(64, 201, 98);
+}
+#healthArticles h4{
+  -webkit-text-fill-color: rgb(138, 14, 187);
+  margin-bottom: 0px;
+  margin-top: 1%;
+  padding-top: 2%;
+  border: 5px;
   border: 5px;
   border: solid;
   border-color:rgba(29, 23, 23, 0.938);
   border-top-color: rgb(3, 141, 215);
-  border-bottom-color: rgb(3, 141, 215);
-}
-#healthArticles a{
-  -webkit-text-fill-color: rgb(64, 201, 98);
 }
