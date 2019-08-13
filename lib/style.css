@@ -71,6 +71,7 @@ body{
 }
 #message_form{
   margin-bottom: 5px;
+  margin-left: 1.5%;
 }
 #chat_members{
   margin-top: 7px;
