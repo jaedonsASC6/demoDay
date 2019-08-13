@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Apollo</title>
+    <link rel="icon" type="image/png" href="./lib/apolloLogo.PNG">
 
     <!-- api links -->
     <script type="text/javascript" src="https://cdn.scaledrone.com/scaledrone.min.js"></script>
@@ -22,7 +23,10 @@
 
     <!-- Top Navigation Menu -->
     <div class="topnav">
-      <a href="#home" class="active">Logo</a>
+      <a href="#home" class="active">Logo
+      <img id = "logo" src="./assets/apolloLogo.PNG" alt="Logo not working.">
+      </a>
+      
       <div id="myLinks">
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
@@ -55,7 +59,17 @@
               ["The Way To Get Started Is To Quit Talking And Begin Doing.", "Walt Disney"],
               ["The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.", "Winston Churchill"],
               ["Be yourself; everyone else is already taken.", "Oscar Wilde"],
-              ["Simplicity is the ultimate sophistication.", "Leonardo Da Vinci"]
+              ["Simplicity is the ultimate sophistication.", "Leonardo Da Vinci"],
+              ["Don’t Let Yesterday Take Up Too Much Of Today.", "Will Rogers"],
+              ["You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.", "Unknown"],
+              ["It’s Not Whether You Get Knocked Down, It’s Whether You Get Up.", "Vince Lombardi"],
+              ["People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.", "Rob Siltanen"],
+              ["It's up to you today to start making healthy choices. Not choices that are just healthy for your body, but healthy for your mind.","Unknown"],
+              ["Nothing in this world can torment you as much as your own thoughts.","Unknown"],
+              ["You may have to fight a battle more than once.","Margaret Thatcher"],
+              ["Stress, anxiety and depression are caused when we are living to please others.","Paulo Coelho"],
+              ["I know what it's like to be afraid of your own mind.","Dr.Reid/Criminal Minds"],
+              ["Entrepreneurs Are Great At Dealing With Uncertainty And Also Very Good At Minimizing Risk. That’s The Classic Entrepreneur.", "Mohnish Pabrai",],
             ].sort(function() {
               return 0.5 - Math.random();
             }),
@@ -74,7 +88,7 @@
       <p></p>
     </div>
     <div id = "healthArticles">
-      <h3>Mental Health Articles</h3>
+      <h3 id="Mental_Health_Articles_title">Mental Health Articles</h3>
     </div>
     
     <!-- End smartphone / tablet look -->
