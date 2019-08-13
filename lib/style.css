@@ -86,11 +86,7 @@ body{
 h4{
   -webkit-text-fill-color: rgb(138, 14, 187);
 }
-#logo{
-  width: 10%;
-  height: auto;
-  -ms-flex-align: start;
-}
+
 #healthArticles p{
   padding-left: 7%;
   padding-right: 7%;
