@@ -118,17 +118,4 @@ body{
   border: solid;
   border-color:rgba(29, 23, 23, 0.938);
   border-top-color: rgb(3, 141, 215);
-<<<<<<< HEAD
-  border-bottom-color: rgb(3, 141, 215);
 }
-#healthArticles a{
-  -webkit-text-fill-color: rgb(64, 201, 98);
-border-bottom-width: 5px;
-  border-bottom-color: rgb(3, 141, 215);
-}
-#history_box p{
-  flex-direction: row;
-}
-=======
-}
->>>>>>> 4637587f130c957f967219019563b87673636283
