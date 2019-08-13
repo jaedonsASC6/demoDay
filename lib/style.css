@@ -68,7 +68,10 @@ body{
 }
 #chat_box{
   color: white;
-  overflow-y: auto;
+}
+#chat_messages {
+  overflow-y: scroll;
+  height: 50vh;
 }
 #message_form{
   margin-left: 1%;
