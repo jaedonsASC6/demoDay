@@ -89,8 +89,7 @@ h4{
 #logo{
   width: 10%;
   height: auto;
-  text-align: left;
-  margin: 10px;
+  -ms-flex-align: start;
 }
 #healthArticles p{
   padding-left: 7%;
