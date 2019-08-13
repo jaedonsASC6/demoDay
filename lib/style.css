@@ -89,4 +89,9 @@ h4{
 #healthArticles p{
   padding-left: 7%;
   padding-right: 7%;
+  border :solid;
+  border-color:rgb(3, 141, 215);
+}
+#healthArticles a{
+  -webkit-text-fill-color:rgb(67, 194, 109);
 }
