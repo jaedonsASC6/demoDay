@@ -89,10 +89,14 @@ h4{
 #logo{
   width: 10%;
   height: auto;
-  text-align: left;
-  margin: 10px;
+  -ms-flex-align: start;
 }
 #healthArticles p{
   padding-left: 7%;
   padding-right: 7%;
+  border:solid;
+  border-color: rgb(3, 141, 215);
+}
+#healthArticles a{
+  -webkit-text-fill-color: rgb(64, 201, 98);
 }
