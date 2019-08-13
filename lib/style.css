@@ -67,7 +67,7 @@ body{
 }
 #chat_box{
   color: white;
-  overflow: auto;
+  overflow-y: auto;
 }
 #message_form{
   margin-bottom: 5px;
@@ -85,9 +85,18 @@ body{
 }
 h4{
   -webkit-text-fill-color: rgb(138, 14, 187);
-  margin: 10px;
+}
+#logo{
+  width: 10%;
+  height: auto;
+  -ms-flex-align: start;
 }
 #healthArticles p{
   padding-left: 7%;
   padding-right: 7%;
+  border:solid;
+  border-color: rgb(3, 141, 215);
+}
+#healthArticles a{
+  -webkit-text-fill-color: rgb(64, 201, 98);
 }
