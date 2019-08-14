@@ -60,8 +60,8 @@ body{
   font-size: 130%
 }
 #MotovationalSpeech p strong{
-  font-size: 130%;
-  -webkit-text-fill-color: rgba(55, 75, 255, 0.925);
+  font-size: 115%;
+  -webkit-text-fill-color: rgba(43, 60, 214, 0.925);
 }
 #MotovationalSpeech h2{
   margin-top: 7px;
@@ -82,7 +82,7 @@ body{
   
 }
 #message_input{
-  width: 90%;
+  width: 85%;
 }
 #chat_members{
   margin-top: 7px;
@@ -93,6 +93,7 @@ body{
 }
 #Mental_Health_Articles_title{
   -webkit-text-fill-color: rgba(26, 168, 13, 0.952);
+  text-decoration: underline;
 }
 #logo{
   width: 10%;
@@ -120,4 +121,8 @@ body{
   border: solid;
   border-color:rgba(29, 23, 23, 0.938);
   border-top-color: rgb(3, 141, 215);
+}
+#send{
+  background-color: rgb(27, 23, 22);
+  -webkit-text-fill-color: rgb(233, 225, 216);
 }
