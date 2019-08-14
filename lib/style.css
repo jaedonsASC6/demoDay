@@ -131,6 +131,7 @@ body{
 #name_changer{
   background-color: rgb(255, 255, 255);
   border:solid;
+  font-size: 80%;
   border-left-color: rgb(0, 0, 0);
   border-right-color: rgb(255, 255, 255);
   border-top-color: rgb(255, 255, 255);
@@ -139,4 +140,5 @@ body{
 #channel_changer{
   background-color: rgb(255, 255, 255);
   border:none;
+  font-size: 80%;
 }
