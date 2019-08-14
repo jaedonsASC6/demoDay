@@ -97,13 +97,13 @@ body{
   text-decoration: underline;
 }
 #logo{
-  width: 10%;
+  width: 12%;
   height: auto;
   -ms-flex-align: start;
 }
 #healthArticles{
   display:grid;
-  
+  grid-template-columns: 50% 50%;
 }
 #healthArticles p{
   padding-left: 5%;
@@ -140,7 +140,7 @@ body{
   border-top-color: rgb(255, 255, 255);
   border-bottom-color: rgb(255, 255, 255);
 }
-#channel_changer{
+#channels{
   background-color: rgb(255, 255, 255);
   border:none;
   font-size: 80%;
