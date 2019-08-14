@@ -97,9 +97,19 @@ body{
   text-decoration: underline;
 }
 #logo{
-  width: 10%;
+  width: 12%;
   height: auto;
   -ms-flex-align: start;
+}
+.article{
+  border: solid;
+  border-color: rgb(6, 143, 218);
+  margin: 1%;
+}
+#healthArticles{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 1%;
 }
 #healthArticles p{
   padding-left: 5%;
@@ -118,10 +128,6 @@ body{
   margin-top: 1%;
   padding-top: 2%;
   border: 5px;
-  border: 5px;
-  border: solid;
-  border-color:rgba(255, 255, 255, 0.411);
-  border-top-color: rgb(6, 143, 218);
 }
 #send{
   background-color: rgb(255, 255, 255);
@@ -150,4 +156,9 @@ button {
   border: rgb(255, 153, 0) solid 1px;
   background-color: rgb(255, 153, 0);
   color: aliceblue;
+}
+#channels{
+  background-color: rgb(255, 255, 255);
+  border:none;
+  font-size: 80%;
 }
