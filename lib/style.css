@@ -50,8 +50,10 @@ body{
   text-align: center;
   -webkit-text-fill-color: rgb(24, 164, 219);
   border: solid;
+  border-bottom-color: rgb(24, 19, 17);
   border-top-color: rgb(14, 209, 47);
   margin-top:1.2%;
+
 }
 #MotovationalSpeech p{
   margin:5px;
