@@ -119,3 +119,23 @@ body{
   border-color:rgba(29, 23, 23, 0.938);
   border-top-color: rgb(3, 141, 215);
 }
+#name_changer{
+  color: white;
+  background-color: rgb(24, 19, 17);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 14px;
+  border-color: rgb(24, 19, 17);
+  display: inline-block;
+}
+#channel_changer{
+  color: white;
+  background-color: beige;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 14px;
+  border-color: rgb(24, 19, 17);
+display: inline-block;
+}
