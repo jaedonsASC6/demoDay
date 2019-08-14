@@ -1,8 +1,4 @@
-body{
-  margin: 0px;
-  max-width: 100%;
-  background-color: rgb(255, 255, 255);
-}
+
 .mobile-container {
     height: 100%;
     color: rgb(27, 27, 27);
@@ -137,8 +133,23 @@ body{
   border-top-color: rgb(255, 255, 255);
   border-bottom-color: rgb(255, 255, 255);
 }
-#channel_changer{
+.channel_button{
   background-color: rgb(255, 255, 255);
   border:none;
   font-size: 80%;
+  color: blue;
+  text-decoration: underline;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+#history_box{
+  margin-left: 1%;
+}
+#chat_box{
+} 
+body{
+  margin: 0px;
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
 }
