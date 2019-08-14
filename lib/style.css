@@ -111,6 +111,15 @@ body{
   grid-template-columns: 50% 50%;
   margin-bottom: 1%;
 }
+@media only screen and (max-width: 768px) {
+  #healthArticles {
+    display: block;
+    width: 100%;
+  }
+  #healthArticles h4{
+    font-size-adjust: inherit;
+  }
+}
 #healthArticles p{
   padding-left: 5%;
   padding-right: 5%;
