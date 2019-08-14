@@ -162,3 +162,6 @@ button {
   border:none;
   font-size: 80%;
 }
+#chat_messages{
+  padding-left: 2%;
+}

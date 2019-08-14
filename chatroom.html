@@ -15,14 +15,11 @@
     
     <script src="./lib/config.js"></script>
     <script src="./lib/main.js" defer></script>
-    <script src="./lib/newsApi.js" defer></script>
-    <script src="./lib/quoteOfTheDay.js" defer> </script>
     <link rel="stylesheet" href="./lib/style.css">
 </head>
 <body>
     <!-- Simulate a smartphone / tablet -->
 <div class="mobile-container">
-
     <!-- Top Navigation Menu -->
     <div class="topnav">
       <div id="Home" href="#home" class="active">
@@ -37,37 +34,27 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
-    
-    <div class ="quoteOfTheDay">
-      <h3>~Quote of the Day~</h3>
-      <p>
-        <head>
-          <meta charset="utf-8">
-          <title>Quotes</title>
-          <style>
-          body { color: #333; font: 20px georgia; }
-          em { color: #555; font-size: 90%; }
-          </style>
-          </head>
-          <body>
-          <article id="quotes"></article>
-          <script>
-          </script>
-          </body>
-      </p>
-      <p></p>
-      <p id = "quote"></p>
-    </div>
-    <h3 id="Mental_Health_Articles_title">Mental Health Articles</h3>
-    <div id = "healthArticles">
-    </div>
-    
-    <!-- End smartphone / tablet look -->
 </div>
 
-<div id = "MotovationalSpeech">
-  <h2>Finally a personal message from the site creator:</h2>
-  <p>Always remember that you are <strong>great</strong> and you are needed in this world. Even if you think that your existence is small and insignificant, or if you feel that you are not welcome in this world just remember that someone out there loves you for who you are. You just need to find them. Do <strong>not</strong> give up.</p>
+<div id="chat_box">
+  <div id="channels">
+      <button id="channel_changer-stress" class = "channel_button">Stress Response</button>
+      <button id="channel_changer-dissociative" class = "channel_button">Dissociative Disorder</button>
+      <button id="channel_changer-dysphoria" class = "channel_button">Gender Dysphoria</button>
+      <button id="channel_changer-somatic" class = "channel_button">Somatic Disorder</button>
+      <button id="channel_changer-tic" class = "channel_button">Tic Disorder</button>
+    </div>
+  <div id="settings">
+    <span id = "name_form">
+      <button id="name_changer">Change username</button>
+    </span>
+  </div>
+  <div id = "chat_members"></div>
+	<div id = "chat_messages"></div>
+	<div id = "message_form">
+		<input id = "message_input" type="text">
+		<button id = "send" type = "submit">Send</button>
+	</div>
 </div>
 </body>
 </html>
