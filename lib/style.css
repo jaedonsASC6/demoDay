@@ -133,20 +133,26 @@
   border-bottom-color: rgb(255, 255, 255);
 }
 .channel_button{
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border:none;
   font-size: 80%;
   color: blue;
   text-decoration: underline;
-  text-align: center;
+  text-align: right;
   display: flex;
   flex-direction: column;
 }
+#channels{
+  display:flex;
+  flex-direction: column;
+  float: right;
+  text-align: right;
+}
+
 #history_box{
   margin-left: 1%;
 }
-#chat_box{
-} 
+
 body{
   margin: 0px;
   max-width: 100%;
