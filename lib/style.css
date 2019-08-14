@@ -1,12 +1,11 @@
 body{
   margin: 0px;
   max-width: 100%;
-  background-color: rgb(24, 19, 17);
+  background-color: rgb(255, 255, 255);
 }
 .mobile-container {
-    background-color: rgba(29, 23, 23, 0.938);
     height: 100%;
-    color: rgb(207, 205, 205);
+    color: rgb(27, 27, 27);
     border-radius: 10px;
     text-align: center;
   }
@@ -48,18 +47,22 @@ body{
   }
 #MotovationalSpeech{
   text-align: center;
-  -webkit-text-fill-color: rgb(24, 164, 219);
+  -webkit-text-fill-color: rgb(8, 55, 73);
   border: solid;
-  border-top-color: rgb(14, 209, 47);
+  border-bottom-color: rgb(255, 255, 255);
+  border-left-color: rgb(255, 255, 255);
+  border-right-color: rgb(255, 255, 255);
+  border-top-color: rgb(10, 100, 25);
   margin-top:1.2%;
+
 }
 #MotovationalSpeech p{
   margin:5px;
   font-size: 130%
 }
 #MotovationalSpeech p strong{
-  font-size: 130%;
-  -webkit-text-fill-color: rgba(55, 75, 255, 0.925);
+  font-size: 115%;
+  -webkit-text-fill-color: rgba(7, 58, 78, 0.972);
 }
 #MotovationalSpeech h2{
   margin-top: 7px;
@@ -80,17 +83,18 @@ body{
   
 }
 #message_input{
-  width: 90%;
+  width: 85%;
 }
 #chat_members{
   margin-top: 7px;
   text-align: center;
 }
 .quoteOfTheDay{
-  -webkit-text-fill-color:rgb(212,175,55);
+  -webkit-text-fill-color:rgb(196, 160, 44);
 }
 #Mental_Health_Articles_title{
   -webkit-text-fill-color: rgba(26, 168, 13, 0.952);
+  text-decoration: underline;
 }
 #logo{
   width: 10%;
@@ -116,26 +120,23 @@ body{
   border: 5px;
   border: 5px;
   border: solid;
-  border-color:rgba(29, 23, 23, 0.938);
-  border-top-color: rgb(3, 141, 215);
+  border-color:rgba(255, 255, 255, 0.411);
+  border-top-color: rgb(6, 143, 218);
+}
+#send{
+  background-color: rgb(255, 255, 255);
+  -webkit-text-fill-color: rgb(19, 11, 11);
+  border: none;
 }
 #name_changer{
-  color: white;
-  background-color: rgb(24, 19, 17);
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: underline;
-  font-size: 14px;
-  border-color: rgb(24, 19, 17);
-  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border:solid;
+  border-left-color: rgb(0, 0, 0);
+  border-right-color: rgb(255, 255, 255);
+  border-top-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(255, 255, 255);
 }
 #channel_changer{
-  color: white;
-  background-color: beige;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: underline;
-  font-size: 14px;
-  border-color: rgb(24, 19, 17);
-display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border:none;
 }
