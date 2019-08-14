@@ -139,3 +139,15 @@ body{
 button {
   cursor: pointer;
 }
+
+.channel_button {
+  border: rgb(103, 160, 235) solid 1px;
+  background-color: rgb(103, 160, 235);
+  color: black;
+  border-radius: 5px;
+}
+.inactive { /*elements that dont have this in class attribute*/
+  border: rgb(255, 153, 0) solid 1px;
+  background-color: rgb(255, 153, 0);
+  color: aliceblue;
+}
