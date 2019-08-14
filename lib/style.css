@@ -101,6 +101,10 @@ body{
   height: auto;
   -ms-flex-align: start;
 }
+#healthArticles{
+  display:grid;
+  
+}
 #healthArticles p{
   padding-left: 5%;
   padding-right: 5%;
