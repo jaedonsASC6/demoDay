@@ -17,11 +17,12 @@
   }
   
   .topnav a {
-    -webkit-text-fill-color: rgb(58, 21, 119);
+    -webkit-text-fill-color: rgb(255, 255, 255);
     padding: 17px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
+    transition: all 0.5s;
   }
   
   .topnav a.icon {
@@ -33,7 +34,7 @@
   }
   
   .topnav a:hover {
-    background-color: rgb(24,125,22);
+    background-color: rgb(39, 39, 39);
     color: black;
   }
   
