@@ -146,9 +146,9 @@ body{
   background-color: rgb(255, 255, 255);
   border:solid;
   font-size: 80%;
-
-button {
-  cursor: default;
+}
+button{
+  cursor: pointer;
 }
 .channel_button {
   border: rgb(103, 160, 235) solid 1px;
