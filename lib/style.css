@@ -107,6 +107,15 @@
   grid-template-columns: 50% 50%;
   margin-bottom: 1%;
 }
+@media only screen and (max-width: 768px) {
+  #healthArticles {
+    display: block;
+    width: 100%;
+  }
+  #healthArticles h4{
+    font-size-adjust: inherit;
+  }
+}
 #healthArticles p{
   padding-left: 5%;
   padding-right: 5%;
@@ -116,7 +125,7 @@
   margin-top:1%;
 }
 #healthArticles a{
-  -webkit-text-fill-color: rgb(64, 201, 98);
+  -webkit-text-fill-color: rgb(64, 201, 98); 
 }
 #healthArticles h4{
   -webkit-text-fill-color: rgb(138, 14, 187);
@@ -133,34 +142,26 @@
   background-color: rgb(255, 255, 255);
   border:solid;
   font-size: 80%;
-  border-left-color: rgb(0, 0, 0);
-  border-right-color: rgb(255, 255, 255);
-  border-top-color: rgb(255, 255, 255);
-  border-bottom-color: rgb(255, 255, 255);
+}
+button{
+  cursor: pointer;
+}
+.channel_button {
+  border: rgb(103, 160, 235) solid 1px;
+  background-color: rgb(103, 160, 235);
+  color: black;
+  border-radius: 5px;
+}
+.inactive { /*elements that dont have this in class attribute*/
+  border: rgb(255, 153, 0) solid 1px;
+  background-color: rgb(255, 153, 0);
+  color: aliceblue;
 }
 #channels{
   background-color: rgb(255, 255, 255);
   border:none;
   font-size: 80%;
-  color: blue;
-  text-decoration: underline;
-  text-align: right;
-  display: flex;
-  flex-direction: column;
 }
-#channels{
-  display:flex;
-  flex-direction: column;
-  float: right;
-  align
-}
-
-#history_box{
-  margin-left: 1%;
-}
-
-body{
-  margin: 0px;
-  max-width: 100%;
-  background-color: rgb(255, 255, 255);
+#chat_messages{
+  padding-left: 2%;
 }

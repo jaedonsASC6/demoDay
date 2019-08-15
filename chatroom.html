@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apollo</title>
+    <link rel="icon" type="image/png" href="./lib/apolloLogo.PNG">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+
+    <!-- api links -->
+    <script type="text/javascript" src="https://cdn.scaledrone.com/scaledrone.min.js"></script>
+
+    <!-- api links -->
+    
+    <script src="./lib/config.js"></script>
+    <script src="./lib/main.js" defer></script>
+    <link rel="stylesheet" href="./lib/style.css">
+</head>
+<body>
+    <!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <div id="Home" href="#home" class="active">
+      <img id = "logo" src="./assets/apolloLogo.PNG" alt="Logo not working.">
+      </div>
+      
+      <div id="myLinks">
+        <a href="./chatroom.html">Chatrooms</a>
+        <a href="./index.html">Homepage</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" id="dropdown_button">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+</div>
+
+<div id="chat_box">
+  <div id="channels">
+      <button id="channel_changer-stress" class = "channel_button">Stress Response</button>
+      <button id="channel_changer-dissociative" class = "channel_button">Dissociative Disorder</button>
+      <button id="channel_changer-dysphoria" class = "channel_button">Gender Dysphoria</button>
+      <button id="channel_changer-somatic" class = "channel_button">Somatic Disorder</button>
+      <button id="channel_changer-tic" class = "channel_button">Tic Disorder</button>
+    </div>
+  <div id="settings">
+    <span id = "name_form">
+      <button id="name_changer">Change username</button>
+    </span>
+  </div>
+  <div id = "chat_members"></div>
+	<div id = "chat_messages"></div>
+	<div id = "message_form">
+		<input id = "message_input" type="text">
+		<button id = "send" type = "submit">Send</button>
+	</div>
+</div>
+</body>
+</html>
