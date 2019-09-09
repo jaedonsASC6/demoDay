@@ -12,7 +12,7 @@ Mo,
 Jaedon,
 
 App Name:
-Proteus
+Apollo
 
 App Logo
 
